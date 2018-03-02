@@ -2,6 +2,11 @@ body {
   margin: 0;
 }
 
+::-webkit-scrollbar {
+  min-width: 1px;
+  min-height: 1px;
+}
+
 .body-wrapper {
   margin: 0 10px;
 }
@@ -12,7 +17,7 @@ body {
 }
 
 .body-can-scroll {
-  height: 180px;
+  height: 200px;
   overflow: auto;
 }
 button {
