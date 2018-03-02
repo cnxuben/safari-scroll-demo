@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+}
+
+.body-wrapper {
+  margin: 0 10px;
+}
+
+#modal-btn {
+  margin-top: 50px;
+  margin-left: 10px;
+}
+
+.body-can-scroll {
+  height: 180px;
+  overflow: auto;
+}
+button {
+  background-color: grey;
+  color:  white;
+}
+
+button:active {
+  background-color: darkgray
+}
