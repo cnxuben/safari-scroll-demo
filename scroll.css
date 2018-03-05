@@ -2,6 +2,10 @@ body {
   margin: 0;
 }
 
+.noScroll {
+  overflow: hidden;
+}
+
 ::-webkit-scrollbar {
   min-width: 1px;
   min-height: 1px;
@@ -20,11 +24,19 @@ body {
   height: 200px;
   overflow: auto;
 }
-button {
-  background-color: grey;
-  color:  white;
+
+#progress-bar-entity {
+  display: none;
+  width: 300px;
+  height: 500px;
+  border: 1px solid grey;
+  background-color: white;
+  position: fixed;
+  top: 0px;
 }
 
-button:active {
-  background-color: darkgray
+.progress-bar-ul {
+  margin: 10px auto;
+  overflow: auto;
+  height: 470px;
 }
